@@ -1,43 +1,6 @@
 ﻿namespace _16._09._2024_csharp_classes_methods_assignment;
 
-//interface with two methods AddNumbers and SubtractNumbers
-interface ICalculator
-{
-    //adds two parameters(inputs) to each method 
-    double AddNumbers(double num1, double num2);
-    double SubstactNumbers(double num1, double num2);
-    double MultiplyNumbers(double num1, double num2);
-    double DivideNumbers(double num1, double num2);
-}
 
-class Calculator : ICalculator //Calculator class implements the Icalculator interface, with the use of ":"
-{
-    /* 
-    public - allows it to be accessed form outside the class
-    double - makes the method return result as a double 
-    */
-    public double AddNumbers(double num1, double num2)
-    {
-        //implementing the addition logic
-        return num1 + num2;
-    }
-
-    public double SubstactNumbers(double num1, double num2)
-    {
-        //implementing the substacion logic
-        return num1 - num2;
-    }
-    public double MultiplyNumbers(double num1, double num2)
-    {
-        //implementing the multiplication logic
-        return num1 * num2;
-    }
-    public double DivideNumbers(double num1, double num2)
-    {
-        //implementing the division logic - !!!needs zero exception
-        return num1 / num2;
-    }
-}
 class Program
 {
 
@@ -46,6 +9,7 @@ class Program
     {
 
         /* //This part is for the video lesson -------------------------------------------------------------------------------------------
+        
         // string = a datatype that contains text
         string helloWorld = "Hello, world";
         Console.WriteLine(helloWorld);
