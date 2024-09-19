@@ -7,8 +7,12 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.WriteLine("Type first number, followed by one operator");
+        Console.WriteLine("+ , - , * , /");
+        Console.WriteLine("And the second number");
 
-        /* //This part is for the video lesson -------------------------------------------------------------------------------------------
+
+        /* //This part is just notes from the video lesson -------------------------------------------------------------------------------------------
         
         // string = a datatype that contains text
         string helloWorld = "Hello, world";

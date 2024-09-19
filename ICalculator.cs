@@ -40,4 +40,6 @@ class Calculator : ICalculator //Calculator class implements the Icalculator int
         //implementing the division logic
         return num1 / num2;
     }
+
+
 }
